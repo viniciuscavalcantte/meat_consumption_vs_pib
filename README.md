@@ -95,6 +95,3 @@ Modelo de regressão linear simples:
    
 3. Execute o script:
    python analise_consumo_pib.py
-
-
-
