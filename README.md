@@ -89,6 +89,11 @@ Modelo de regressão linear simples:
    git clone https://github.com/seu-usuario/consumo-carne-vs-pib.git
    cd consumo-carne-vs-pib
    
+2. Instale os pacotes necessários:
+```bash
+pip install -r requirements.txt
+
+   
      
 
    
