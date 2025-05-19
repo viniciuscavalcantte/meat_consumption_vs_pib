@@ -94,4 +94,6 @@ Modelo de regressão linear simples:
    pip install -r requirements.txt
    
 3. Execute o script:
+   ```bash
    python analise_consumo_pib.py
+
