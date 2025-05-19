@@ -86,8 +86,8 @@ Modelo de regressão linear simples:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/consumo-carne-vs-pib.git
-   cd consumo-carne-vs-pib
+   git clone https://github.com/seu-usuario/meat_consumption_vs_pib.git
+   cd meat_consumption_vs_pib
    
 2. Instale os pacotes necessários:
    ```bash
