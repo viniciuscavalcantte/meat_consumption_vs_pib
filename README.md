@@ -97,3 +97,10 @@ Modelo de regressão linear simples:
    ```bash
    python analise_consumo_pib.py
 
+## 👥 Desenvolvedores
+- **José Vinicius Cavalcante Soares** - 22112113  
+- **** - 22110823  
+
+
+## 📜 Licença
+MIT License - Consulte [LICENSE](LICENSE) para detalhes.
