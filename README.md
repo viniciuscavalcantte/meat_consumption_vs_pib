@@ -99,7 +99,7 @@ Modelo de regressão linear simples:
 
 ## 👥 Desenvolvedores
 - **José Vinicius Cavalcante Soares** - 22112113  
-- **** - 22110823  
+- **Aleksander Pires Calixto Negrão** - 20112824 
 
 
 ## 📜 Licença
