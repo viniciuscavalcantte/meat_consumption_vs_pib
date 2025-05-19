@@ -38,15 +38,49 @@ Este projeto analisa a relação entre o **consumo de carne per capita** e o **P
 5. **Teste de Hipótese**  
    Verificar se a correlação observada é estatisticamente significativa.
 
-## 📈 Resultados
+## 📈 Resultados da Análise
 
-- **Correlação** entre PIB e consumo de carne: `r ≈ 0.XX` (valor exato depende dos dados)
-- **Regressão Linear**:
-  - Intercepto (α): `...`
-  - Coeficiente (β): `...`
-  - R²: `...`
-- **Valor-p** da correlação: `...`
-- **Conclusão**: (depende do p-valor — ex.: há evidência de correlação positiva com 99% de confiança)
+### 📌 Estatísticas Descritivas
+
+**Consumo de Carne (kg/ano per capita)**  
+- Média: 41.94  
+- Mediana: 32.99  
+- Mínimo: 2.21  
+- Máximo: 179.95  
+- Desvio Padrão: 31.26  
+
+**PIB per Capita (PPC - dólares internacionais)**  
+- Média: 21,567.90  
+- Mediana: 12,562.89  
+- Mínimo: 510.82  
+- Máximo: 174,339.08  
+- Desvio Padrão: 23,684.14  
+
+### 🔗 Correlação de Pearson
+
+- **Coeficiente de Correlação (r)**: `0.698`  
+- **Valor-p**: `0.0000`  
+- **Interpretação**: Correlação positiva moderadamente forte entre PIB e consumo de carne.
+
+### 📉 Regressão Linear
+
+Modelo de regressão linear simples:
+
+- **Equação estimada**:  
+  `Consumo de Carne ≈ 26.87 + 0.000986 × PIB per Capita`
+- **Intercepto (α)**: 26.87  
+- **Coeficiente Angular (β)**: 0.000986  
+- **Coeficiente de Determinação (R²)**: 0.487  
+
+### 🧪 Teste de Hipótese
+
+- **H₀**: Não há correlação entre consumo de carne e PIB per capita (ρ = 0)  
+- **H₁**: Há correlação positiva entre as variáveis (ρ > 0)  
+- **Valor-p**: `0.0000000000`
+
+**Conclusão**:  
+> Rejeitamos a hipótese nula com 99% de confiança.  
+> Há evidências estatísticas de uma **correlação positiva significativa** entre PIB per capita e consumo de carne.
 
 ## ▶️ Como Executar
 
@@ -54,3 +88,4 @@ Este projeto analisa a relação entre o **consumo de carne per capita** e o **P
    ```bash
    git clone https://github.com/seu-usuario/consumo-carne-vs-pib.git
    cd consumo-carne-vs-pib
+
