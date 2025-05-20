@@ -1,6 +1,6 @@
 # 📊 Consumo de Carne vs PIB per Capita
 
-Este projeto analisa a relação entre o **consumo de carne per capita** e o **PIB per capita (PPC)** de diferentes países. Utilizando ferramentas de análise estatística e visualização de dados, buscamos entender se há uma correlação entre o poder econômico de um país e o consumo de carne de sua população.
+Este projeto analisa a relação entre o **consumo de carne per capita** e o **PIB per capita (PIB)** de diferentes países. Utilizando ferramentas de análise estatística e visualização de dados, buscamos entender se há uma correlação entre o poder econômico de um país e o consumo de carne de sua população.
 
 ## 📁 Sobre o Dataset
 
